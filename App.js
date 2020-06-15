@@ -3,8 +3,10 @@ import React from 'react';
 import { View,  Text, Alert } from 'react-native';
 
   import imagenes from "./src/Config/Imagenes"
-  //import Test from "onboardingnativepdm"
-  import Onboarding from "onboardingerickaranibar/src"
+//  import Test from "onboardingnativepdm"
+//  import Test from "react-native-sid"
+  import Onboarding from "./src/Pantallas/OnboardingFactory"
+  //import Onboarding from "onboardingerickaranibar/src"
 
 
   function Ejemplo({navigation}) {
