@@ -1,8 +1,8 @@
 {
-  "name": "OnboardingFactory-React-Native-PDM",
+  "name": "onboardingfactory-react-native-pdm",
   "version": "1.0.0",
   "description": "An example package for a tutorial.",
-  "main": "./src/Pantallas/OnboardingFactory",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -11,22 +11,37 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "expo": "~37.0.3",
-    "react": "16.11.0",
-    "react-dom": "~16.9.0",
-    "react-native": "0.62.2",
-    "react-native-web": "~0.11.7",
     "@react-native-community/masked-view": "^0.1.10",
     "@react-navigation/native": "^5.2.3",
     "@react-navigation/stack": "^5.2.18",
+    "Onboarding-React-Native": "file:../NPM",
+    "expo": "~37.0.3",
     "firebase": "^7.14.2",
+    "onboarding-react-native-pdm": "^1.0.1",
+    "onboardingerickaranibar": "^1.0.1",
+    "onboardingnativepdm": "^1.0.2",
+    "react": "16.11.0",
+    "react-dom": "~16.9.0",
+    "react-native": "0.61.4",
     "react-native-gesture-handler": "^1.6.1",
     "react-native-safe-area-context": "^0.7.3",
-    "react-native-screens": "^2.7.0"
+    "react-native-screens": "^2.7.0",
+    "react-native-sid": "^1.0.0",
+    "react-native-web": "~0.11.7"
   },
   "devDependencies": {
     "babel-preset-expo": "~8.1.0",
     "@babel/core": "^7.8.6"
   },
-  "private": true
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/friki57/OnboardingFactory-React-Native-PDM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/friki57/OnboardingFactory-React-Native-PDM/issues"
+  },
+  "homepage": "https://github.com/friki57/OnboardingFactory-React-Native-PDM#readme"
 }
